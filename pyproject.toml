@@ -1,0 +1,13 @@
+[project]
+name = "clonezip"
+version = "1.0.0"
+description = "Clones pédagogiques de bzip2, lzma et 7-zip"
+requires-python = ">=3.9"
+dependencies = ["numpy"]
+
+[project.scripts]
+clonezip = "clonezip.cli:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

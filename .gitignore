@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+samples/
+report_work/
+*.bz2
+*.lzma
+*.7z
